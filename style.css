@@ -58,11 +58,15 @@
 }
 
 .texto:hover{
-    transform: scale(1.2);
-    transition: 3s;
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: white;
+    border-color: blue;
 }
 
 .enviar:hover{
-    transform: rotate(360deg);
+    transform: scale(1.1);
     transition: 2s;
+    background-color: white;
+    border-color: blue;
 }
