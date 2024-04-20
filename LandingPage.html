@@ -1,90 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>LandingP</title>
 </head>
 <body style="background-image: url(https://thumbs.dreamstime.com/b/carretera-del-asfalto-con-textura-de-las-marcas-de-camino-25199138.jpg);">
-    <nav class="navbar fixed-top navbar-expand-sm bg-warning"> <!--fixed-top ancla al navbar, expand baja el menu en pequeñas pantallas.-->
-    <div class="container-fluid d-flex justify-content-center">
+    <nav class="navbar fixed-top navbar-expand-sm bg-warning">
+        <div class="container-fluid d-flex justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link btn btn-outline-light text-dark participa" href="#PARTICIPA"><b>LLENA EL FORMULARIO</b></a>
+                    <a class="nav-link btn btn-outline-light text-dark participa" href="#PARTICIPA"><b>LLENA EL FORMULARIO</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link btn btn-outline-light text-dark somos" href="#SOMOS"><b>QUIENES SOMOS</b></a>
+                    <a class="nav-link btn btn-outline-light text-dark somos" href="#SOMOS"><b>QUIENES SOMOS</b></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link btn btn-outline-light text-dark terminos" href="#TERMINOS"><b>TERMINOS & CONDICIONES</b></a>
+                    <a class="nav-link btn btn-outline-light text-dark terminos" href="#TERMINOS"><b>TERMINOS & CONDICIONES</b></a>
                 </li>
             </ul>
-    </div>
+        </div>
     </nav>
     <div class="container-fluid" style="margin-top: 200px">  
-    <div class="row row1">
-        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" style="background-image:url(https://github.com/BranCG/EVA2/blob/main/img/cono22.png?raw=true);background-repeat: no-repeat;
-            height: 95px; background-size: contain; margin: 0 auto;"></div>
-        <div class=" col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-warning  text-dark" style="border: 2px solid white">
-            <span style="color: red; text-align: center;"><b>¡GANA UN AÑO GRATIS</span> <br> DE (TAG)AUTOPISTA O TRANSPORTE PUBLICO! </b>
-        </div>
-        <div class=" col-sm-1 col-md-1 col-lg-1 col-xl-1" style="background-image:url(https://github.com/BranCG/EVA2/blob/main/img/cono11.png?raw=true);background-repeat: no-repeat;
-            height: 95px;
-            background-size: contain;"></div>
-        <div ></div>
-    </div>     
-    <div id="SOMOS" class="row row2"> 
-        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-primary p-5 text-white" style="font-family: monospace; text-align: center; border-radius: 20px; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/huella22.png?raw=true);background-repeat: no-repeat;
-            background-size: 250px; margin: 0 auto; border: 1px solid yellow ">
-            <span style="color: yellow; text-align: center;"><h3><b>BenefiViaje</b></h3></span>
-            <br>
-            <b>En BenefiViajes, nos preocupamos por brindar apoyo a quienes enfrentan las dificultades de los incrementos de precios en el transporte. Somos una empresa comprometida con la comunidad, y nuestra misión es ofrecer soluciones que alivien tu bolsillo y faciliten tu movilidad diaria.
-
-            Con nuestro concurso, queremos brindarte la oportunidad de <span style="color: yellow">viajar gratis durante todo un año</span> en transporte público, ya sea en metro o micro, o de disfrutar de un año de uso de autopistas si tienes automóvil. Creemos que el acceso a un transporte asequible es fundamental para mejorar la calidad de vida de las personas, y por eso estamos aquí para ayudarte.</b>
-        </div>
-        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-    </div>      
-
-    <div id="PARTICIPA"  class="row p-5 row3 ">
-        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
-        <div  class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8 bg-danger text-white" style="font-size: 16px; text-align: center;font-family: monospace; border-radius: 30px; border: 8px solid yellow; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/tagg.png?raw=true);background-repeat: no-repeat;
-            background-size: 80px; background-position-y: 520px; background-position-x: 220px; margin: 0 auto; border: 1px solid yellow ">
-            <form>
-                <div class="tituloForm"><b>PARTICIPA LLENANDO <br> LOS DATOS</b></div>
-                <div style="display: inline-block;width: 200px;">
-                <label for="RUT"style="cursor: pointer;"><b>RUT:*</b></label>
-                <input style="width: 250px;"placeholder="12345678-9" type="number" name="Rut" id="RUT">
-                <label for="NOMBRE" style="cursor: pointer;"><b>NOMBRE:*</b></label>
-                <input style="width: 250px;" type="text" name="Nombre" id="NOMBRE">
-                <label for="APELLIDO"style="cursor: pointer;"><b>APELLIDO:*</b></label>
-                <input style="width: 250px;" type="text" name="Apellido" id="APELLIDO">
-                <label for="NUMERO"style="cursor: pointer;"><b>NÚMERO DE CONTACTO:*</b></label>
-                <input style="width: 250px;" placeholder="9-12345678" type="number" name="Numero" id="NUMERO">
-                <label for="CORREO"style="cursor: pointer;"><b>CORREO ELECTRÓNICO:*</b></label>
-                <input style="width: 250px;" placeholder="asd@gmail.com" type="text" name="Correo" id="CORREO">
-                </div>
+        <div class="row row1">
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" style="background-image:url(https://github.com/BranCG/EVA2/blob/main/img/cono22.png?raw=true);background-repeat: no-repeat; height: 95px; background-size: contain; margin: 0 auto;"></div>
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-warning text-dark" style="border: 2px solid white">
+                <span style="color: red; text-align: center;"><b>¡GANA UN AÑO GRATIS</b></span> <br> DE (TAG)AUTOPISTA O TRANSPORTE PUBLICO!
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" style="background-image:url(https://github.com/BranCG/EVA2/blob/main/img/cono11.png?raw=true);background-repeat: no-repeat; height: 95px; background-size: contain;"></div>
+        </div>     
+        <div id="SOMOS" class="row row2"> 
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-primary p-5 text-white" style="font-family: monospace; text-align: center; border-radius: 20px; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/huella22.png?raw=true);background-repeat: no-repeat; background-size: 250px; margin: 0 auto; border: 1px solid yellow">
+                <span style="color: yellow; text-align: center;"><h3><b>BenefiViaje</b></h3></span>
                 <br>
-                <div style="margin-top: 70px; display: inline-block; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/bip.png?raw=true);background-repeat: no-repeat;
-            background-size: 70px; background-position-x: 190px; background-position-y: 120px;">
-                <h3><b>ELIGE UN BENEFICIO</b></h3>
-                <br>
-                <input type="radio" id="TAG_AUTOPISTAS" value="tag" name="opc">
-                <label for="TAG_AUTOPISTAS"style="cursor: pointer;"><b><span style="color:yellow;">UN AÑO GRATIS</span> DE TAG AUTOPISTAS</b></label><br>
-                <input type="radio" id="TRANSPORTE_PUBLIC" value="Transporte" name="opc">
-                <label for="TRANSPORTE_PUBLIC"style="cursor: pointer;margin-top: 10px; margin-bottom: 60px"><b><span style="color: yellow;">UN AÑO GRATIS</span> DE TRANSPORTE PÚBLICO</b></label><br>
-                <input style="height: 60px; width: 300px; font-size: 16px; margin-bottom: 100px;" type="submit" value="ENVIAR TUS DATOS"></div>
-            </form>
+                <b>En BenefiViajes, nos preocupamos por brindar apoyo a quienes enfrentan las dificultades de los incrementos de precios en el transporte. Somos una empresa comprometida con la comunidad, y nuestra misión es ofrecer soluciones que alivien tu bolsillo y faciliten tu movilidad diaria.
+
+                Con nuestro concurso, queremos brindarte la oportunidad de <span style="color: yellow">viajar gratis durante todo un año</span> en transporte público, ya sea en metro o micro, o de disfrutar de un año de uso de autopistas si tienes automóvil. Creemos que el acceso a un transporte asequible es fundamental para mejorar la calidad de vida de las personas, y por eso estamos aquí para ayudarte.</b>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+        </div>      
+
+        <div id="PARTICIPA" class="row p-5 row3">
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
+            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8 bg-danger text-white" style="font-size: 16px; text-align: center; font-family: monospace; border-radius: 30px; border: 8px solid yellow; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/tagg.png?raw=true);background-repeat: no-repeat; background-size: 80px; background-position-y: 520px; background-position-x: 220px; margin: 0 auto; border: 1px solid yellow">
+                <form>
+                    <div class="tituloForm"><b>PARTICIPA LLENANDO <br> LOS DATOS</b></div>
+                    <div style="display: inline-block; width: 200px; margin-left: 10px;">
+                        <div style="margin-left: auto;">Campos obligatorios(*)</div>
+                        <label for="RUT" style="cursor: pointer;"><b>RUT:*</b></label>
+                        <input style="width: 250px;" placeholder="12345678-9" type="number" name="Rut" id="RUT"><br>
+                        <label for="NOMBRE" style="cursor: pointer;"><b>NOMBRE:*</b></label>
+                        <input style="width: 250px;" type="text" name="Nombre" id="NOMBRE"><br>
+                        <label for="APELLIDO" style="cursor: pointer;"><b>APELLIDO:*</b></label>
+                        <input style="width: 250px;" type="text" name="Apellido" id="APELLIDO"><br>
+                        <label for="NUMERO" style="cursor: pointer;"><b>NÚMERO DE CONTACTO:*</b></label>
+                        <input style="width: 250px;" placeholder="9-12345678" type="number" name="Numero" id="NUMERO"><br>
+                        <label for="CORREO" style="cursor: pointer;"><b>CORREO ELECTRÓNICO:*</b></label>
+                        <input style="width: 250px;" placeholder="asd@gmail.com" type="text" name="Correo" id="CORREO">
+                    </div>
+                    <br>
+                    <div style="margin-top: 70px; display: inline-block; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/bip.png?raw=true);background-repeat: no-repeat; background-size: 70px; background-position-x: 190px; background-position-y: 120px;">
+                        <h3><b>ELIGE UN BENEFICIO</b></h3>
+                        <br>
+                        <input type="radio" id="TAG_AUTOPISTAS" value="tag" name="opc">
+                        <label for="TAG_AUTOPISTAS" style="cursor: pointer;"><b><span style="color:yellow;">UN AÑO GRATIS</span> DE TAG AUTOPISTAS</b></label><br>
+                        <input type="radio" id="TRANSPORTE_PUBLIC" value="Transporte" name="opc">
+                        <label for="TRANSPORTE_PUBLIC" style="cursor: pointer; margin-top: 10px; margin-bottom: 60px"><b><span style="color: yellow;">UN AÑO GRATIS</span> DE TRANSPORTE PÚBLICO</b></label><br>
+                        <input style="height: 60px; width: 300px; font-size: 16px; margin-bottom: 100px;" type="submit" value="ENVIAR TUS DATOS">
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
         </div>
-        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
-    </div>
-    <div id="TERMINOS" class="row row4">
-        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-        <div  class="col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-primary p-5 text-white"style="font-size: 18px;font-family: monospace; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/huella11.png?raw=true);background-repeat: no-repeat;
-            background-size: 180px; background-position-y: 140px; background-position-x: 100px; border: 1px solid yellow;">
-            <span style="color: yellow;font-family: monospace"><h3><b>Términos y condiciones</b></h3></span>
+        <div id="TERMINOS" class="row row4">
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 bg-primary p-5 text-white" style="font-size: 18px; font-family: monospace; background-image:url(https://github.com/BranCG/EVA2/blob/main/img/huella11.png?raw=true);background-repeat: no-repeat; background-size: 180px; background-position-y: 140px; background-position-x: 100px; border: 1px solid yellow;">
+                <span style="color: yellow; font-family: monospace"><h3><b>Términos y condiciones</b></h3></span>
                 <ul>
                     <li><b>El concurso está abierto a todas las personas mayores de 18 años.</b></li>
                     <li><b>El premio incluye un año completo de transporte público en metro o bus para una persona, y un año de uso de autopistas (TAG) para quienes tengan automóvil.</b></li>
@@ -93,21 +87,20 @@
                 <br>
                 <br>
                 <span style="color: yellow;"><h3><b>¿Cómo participar?</b></h3></span> <br>
-                            <ol type="I">
-                                <li><b>¡Solo completa el formulario de inscripción ACÁ ARRIBA!</b></li>
-                                <li><b>¡Listo! Ya estarás participando para ganar un año completo de transporte público o autopistas con TAG.</b></li>
-                            </ol>
-        <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>                       
+                <ol type="I">
+                    <li><b>¡Solo completa el formulario de inscripción ACÁ ARRIBA!</b></li>
+                    <li><b>¡Listo! Ya estarás participando para ganar un año completo de transporte público o autopistas con TAG.</b></li>
+                </ol>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+        </div>    
+        <div id="SOMOS" class="row row5"> 
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-danger text-white p-5 row6">
+                <h3><b>¡No esperes más y participa en nuestro concurso para tener la oportunidad de <span style="color: yellow;"><b>VIAJAR GRATIS DURANTE TODO UN AÑO!</span><br>
+                Fechas Concurso <br> </b>
+                Inicio: <span style="color: yellow;">19/04/2024</span>
+                Fin: <span style="color: yellow;">23/04/2024</span></b></h3></div>
         </div>
-    </div>    
-    <div id="SOMOS" class="row row5"> 
-
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-danger text-white p-5 row6">
-            <h3><b>¡No esperes más y participa en nuestro concurso para tener la oportunidad de <span style="color: yellow;"><b>VIAJAR GRATIS DURANTE TODO UN AÑO!</span><br>
-            Fechas Concurso <br> </b>
-            Inicio: <span style="color: yellow;">19/04/2024</span>
-            Fin: <span style="color: yellow;">23/04/2024</span></b></h3></div>
     </div>
-</div>
 </body>
 </html>
