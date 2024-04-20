@@ -46,3 +46,23 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     margin-top:50px;
 }
+
+.box1:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+.box2:hover{
+    transform: scale(1.2);
+    transition: 3s;
+}
+
+.texto:hover{
+    transform: scale(1.2);
+    transition: 3s;
+}
+
+.enviar:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
